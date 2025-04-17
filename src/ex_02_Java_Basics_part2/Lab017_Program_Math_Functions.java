@@ -3,7 +3,7 @@ package ex_02_Java_Basics_part2;
 import static java.lang.Math.abs;
 import static java.lang.Math.cbrt;
 
-public class Program_Math_Functions {
+public class Lab017_Program_Math_Functions {
 
     public static void main (String [] args)
                 {

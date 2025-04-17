@@ -1,6 +1,6 @@
 package ex_02_Java_Basics_part2;
 
-public class Printing_table9_For_loop {
+public class Lab015_Printing_table9_For_loop {
 
     public static void main(String[] args) {
 

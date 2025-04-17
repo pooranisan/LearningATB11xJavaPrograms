@@ -1,6 +1,6 @@
 package ex_02_Java_Basics_part2;
 
-public class Printing_Table9_printf {
+public class Lab016_Printing_Table9_printf {
 
     public static void main(String[] args) {
 
