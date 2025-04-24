@@ -1,0 +1,57 @@
+ a) If there is no main method, what will happen?
+
+  Ans : If there is no main method JVM will not be able to execute the program
+  because it is the main entry point in java for the execution of the program.
+
+  b) Does main method return any value?
+
+  Ans : No, it does not return any value since it is void in nature.
+
+  c) what is main method?
+
+  Ans : Main method is the entry point for JVM to execute the program in java.
+
+  d) (String[] args) what is this in main method?
+
+  Ans : (String[] args) is a parameter in main method that allows command line arguments to the
+  program execution.
+
+  e) main(String[] args) in this instead of args can i write something else like java, or Selenium
+     like this (String[] Selenium)?
+
+  Ans : No, you can't write.
+
+  f) public static void main(string args[]) { } is this right main method, is this will work?
+     ([] position is changed)
+
+  Ans : Yes, it will work and position does not matter.
+
+  g)  public static void main(string[]args) { }, is this right main method, is this will work?
+      (i have removed the space between []args)
+
+  Ans : No, it will not work.
+
+  h) public static void main(string...args) { }, is this right main method, is this will work?
+     ( i have removed [] and added ...)
+
+  Ans : No, it will not work. Because "string" -> "S" - should be in capital letter.
+        If it is in capital letter it will work.
+
+        public static void main(String...args) {}  :// correct.
+
+  i)    static public void main(String[] args) { is this valid main method ?
+
+  Ans : No
+
+  j) public void static main(String[] args) {} is this valid main method?
+
+  Ans : No
+
+  k) public static main void (String[] args) {} is this valid main method?
+
+  Ans : No
+
+  l) Who Gets Highest Priority in Execution?
+
+  Ans : main method.
+
