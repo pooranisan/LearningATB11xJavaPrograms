@@ -9,7 +9,7 @@ public class Task_21st_March_Vowels {
         Scanner scanner = new Scanner(System.in);
 
         String vowels = "AEIOU"; //Define uppercase vowels separately
-        String vowels1 = "aeiou"; //define lowercase vowels separatelt
+        String vowels1 = "aeiou"; //define lowercase vowels separately
 
         System.out.print("Enter a word:");
         String input = scanner.nextLine();
@@ -18,6 +18,9 @@ public class Task_21st_March_Vowels {
 
         StringBuilder vowel_list = new StringBuilder(); //to store all vowels
         StringBuilder consonant_list = new StringBuilder(); // to store all consonants
+
+        int Vowel_Count = 0;
+        int Consonant_Count = 0;
 
         int i;
 
@@ -29,15 +32,22 @@ public class Task_21st_March_Vowels {
                 if (vowels.indexOf(ch) != -1 || vowels1.indexOf(ch) != -1)
                 {
                     vowel_list.append(ch).append(" ");
+                    Vowel_Count++;
                 } else
                 {
                     consonant_list.append(ch).append(" ");
+                    Consonant_Count++;
+
                 }
 
             }
         }
         System.out.println("Vowels: " + vowel_list.toString());
+        System.out.println("Vowel Count :" + Vowel_Count);
+
         System.out.println("Consonants: " + consonant_list.toString());
+        System.out.println("Consonant Count :" + Consonant_Count);
+
 
         scanner.close();
     }
