@@ -27,7 +27,7 @@ public class Lab_45_Factorial
                 }
 
                 System.out.println("Factorial is :" + factorial);
-
+                scanner.close();
 
             }
 }

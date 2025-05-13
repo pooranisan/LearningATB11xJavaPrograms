@@ -25,6 +25,7 @@ public class Task_20th_March_Fibonacci_Sequence
                     a = b;
                     b = sum;
                 }
+                scanner.close();
             }
         }
 

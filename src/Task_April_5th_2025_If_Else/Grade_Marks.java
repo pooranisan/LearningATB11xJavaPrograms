@@ -25,5 +25,6 @@ public class Grade_Marks {
         } else {
             System.out.println("Below 40, Fail");
         }
+        scanner.close();
     }
 }
