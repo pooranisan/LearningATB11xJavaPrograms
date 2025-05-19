@@ -62,8 +62,6 @@ public class Lab136_Comparable
             }
 
         }
-
-
 }
 
 
